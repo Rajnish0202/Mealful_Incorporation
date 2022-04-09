@@ -1,0 +1,64 @@
+.mainContainer {
+  flex: 1 1 70%;
+  height: 90vh;
+  overflow-y: scroll;
+  padding: 0 0.5rem;
+}
+
+.mainContainer::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.mainContainer::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+.mainContainer::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 5rem;
+}
+
+.table {
+  width: 100%;
+  padding: 0.5rem;
+  border-collapse: collapse;
+  position: relative;
+}
+
+.table thead {
+  background: #000;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.table thead tr th {
+  padding: 1rem;
+  text-align: start;
+  font-size: 1rem;
+  border: none;
+}
+
+.table tbody {
+  padding: 1rem;
+  border: 1px solid #000;
+}
+
+.table tbody tr {
+  padding: 0.5rem;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+.table tbody tr td {
+  padding: 1rem;
+  border-bottom: 1px solid #000;
+  text-align: start;
+  font-size: 1rem;
+}

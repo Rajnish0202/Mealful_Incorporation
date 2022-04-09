@@ -1,0 +1,48 @@
+.buttonContainer {
+  flex: 1 1 30%;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.buttonContainer::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.buttonContainer::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+.buttonContainer::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 5rem;
+}
+
+.buttonBox {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  min-width: 6rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 1px solid #eee;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+button:hover {
+  border: 1px solid #f15025;
+  background: #f15025;
+  color: #fff;
+}
